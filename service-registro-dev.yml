@@ -1,0 +1,23 @@
+
+spring:
+  application:
+    name: service-registro
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: registro
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: torneoesport2@gmail.com
+    password: Planta123
+    properties:
+      mail:
+        smtp:
+          auth: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
+          starttls:
+            enable: true
